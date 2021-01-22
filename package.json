@@ -12,18 +12,17 @@
     "express-enqueue": "^1.0.0",
     "express-formidable": "^1.2.0",
     "is-empty": "^1.2.0",
-    "jimp": "^0.10.3",
-    "nodemon": "^2.0.3",
+    "jimp": "^0.16.1",
+    "nodemon": "^2.0.7",
     "now": "^18.0.0",
-    "npm-check-updates": "^4.1.2",
-    "webdav": "^3.3.0"
+    "npm-check-updates": "^11.0.2",
+    "webdav": "^3.6.2"
   },
   "engines": {
     "node": "10.x"
   },
   "scripts": {
     "server-webdav": "node server.js",
-    "gitHub": "git status && git add -A && git commit -am 'update' && git push",
-    "deploy": "now"
+    "deploy": "git status && git add -A && git commit -am 'update' && git push"
   }
 }
